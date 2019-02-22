@@ -6,6 +6,44 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height: 100vh;
+}
+
+#firstPhoto {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 20px;
+    min-width: 150px;
+    min-height: 150px;
+}
+
+.linkPhoto {
+    object-fit: contain;
+    max-width: 33%;
+    max-height: 33%;
+}
+
+#indexName {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.indexContainer {
+    height: 100vh;
+}
+
+.offsetRow {
+    height: 10vh;
+    display: none;
+}
+
+.pictureRow {
+    height: 80vh;
+}
+
+.links {
+    text-align: center;
 }
 
 .top {
@@ -48,8 +86,13 @@ a {
     .top {
         margin-top: 85px
     }
+
+    
 }
 
-/* @media (min-width:768px) {
+@media (min-width:768px) {
+    .offsetRow {
+        display: block;
+    }
 
-} */
+}

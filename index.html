@@ -12,9 +12,7 @@
         crossorigin="anonymous">
 
     <!-- Google Fonts CDN -->
-    <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
-
+    
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
         crossorigin="anonymous">
@@ -32,225 +30,38 @@
     <!-- App specific stylesheet -->
     <!-- <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" /> -->
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
-    <!-- START NAVBAR -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top" id="navMain">
-        <a class="navbar-brand" href="index.html">
-        <img src="assets/images/corey.jpg" alt="Corey" class="rounded-circle" id="aboutMePhoto">
-        Corey Decato</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="#navbar"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbar">
-            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                <li class="nav-item" id="navTrivia">
-                    <a class="nav-link" href="game.html">
-                        <i class="fas fa-question"></i>&nbsp Trivia</a>
-                </li>
-                <li class="nav-item" id="navAbout">
-                    <a class="nav-link" href="about.html">
-                        <i class="fas fa-search"></i>&nbsp About</a>
-                </li>
-                <li class="nav-item" id="navPortfolio">
-                    <a class="nav-link" href="#home">
-                        <i class="far fa-images"></i>&nbsp Portfolio</a>
-                </li>
-                <li class="nav-item" id="navContact">
-                    <a class="nav-link" href="#icons">
-                        <i class="far fa-envelope"></i>&nbsp Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <!-- END NAVBAR -->
-    <div class="container top" id="home">
-        <!-- Start HTML Page Body -->
-        <div class="row aboutDiv mx-auto" id="about">
-            <div class="col-12 col-md-4 text-justify-left" id="name">
-                <p><b>Full-Stack Web Developer</b></p>
+<body>
+    <div class="container indexContainer">
+        <div class="row offsetRow"></div>
+        <div class="row pictureRow">
+            <div class="col-12 col-sm-6">
+                <div class="pictureDiv">
+                    <img src="./assets/images/bros.jpg" alt="Corey Decato" class="rounded-circle" id="firstPhoto">
+                    <h1 id="indexName">
+                        Corey Decato
+                    </h1>
+                </div>
             </div>
-            <div class="col-12 col-md-8 text-justify-left">
-                <p>Hello. My name is Corey Decato and I'm a full-stack web developer. If you're like me and you love games and trivia, see if you can guess a bit about me <a href="game.html"><b>HERE</b></a>. Otherwise you can click <a href="about.html"><b >HERE</b></a> to get to know me.</p>
+            <div class="col-12 col-sm-6">
+                <div class="links">
+                    <img src="./assets/images/mom.jpg" alt="Corey and Jo-Ann" class="rounded-circle linkPhoto">
+                    <br>
+                    <a href="profile.html"><i class="fas fa-briefcase"></i> Portfolio</a>
+                    <br>
+                    <img src="./assets/images/tree.jpg" alt="" class="rounded-circle linkPhoto">
+                    <br>
+                    <a href="about.html"><i class="fas fa-search"></i> Profile</a>
+                    <br>
+                    <img src="./assets/images/view.jpg" alt="" class="rounded-circle linkPhoto">
+                    <br>
+                    <a href="https://docs.google.com/document/d/1vU_4sX2KheUQq1rlIzsHFkKuLEDPv5f5PnbnZA3qZcc/edit?usp=sharing"><i class="fas fa-file"></i> Resumé</a>
+                </div>
             </div>
         </div>
-
-        <!-- Start Portfolio -->
-        <div id="portfolio">
-            <div class="row mx-auto">
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-                    <div class="card">
-                        <img class="card-img-top img-responsive" src="assets/images/hangman.jpg" alt="Hangman">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Hangman</h5>
-                            <p class="card-text">Play a classic hangman game with all of the state capitals</p>
-                            <br>
-                            <span class="portfolioBtn">
-                                <a href="https://cldecato.github.io/hangman/" target="_blank" class="btn btn-secondary">PAGE</a>
-                                <a href="https://github.com/cldecato/hangman" target="_blank" class="btn btn-secondary">SOURCE</a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-                    <div class="card">
-                        <img class="card-img-top img-responsive" src="assets/images/rock-paper-scissor.jpg" alt="Rock Paper Scissors">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Rock Paper Scissors</h5>
-                            <p class="card-text">Play a friend or stranger in Rock Paper Scissors!</p>
-                            <br>
-                            <span class="portfolioBtn">
-                                <a href="https://cldecato.github.io/rps2/" target="_blank" class="btn btn-secondary">PAGE</a>
-                                <a href="https://github.com/cldecato/rps2" target="_blank" class="btn btn-secondary">SOURCE</a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-                    <div class="card">
-                        <img class="card-img-top img-responsive" src="assets/images/trivia.jpg" alt="Trivia Game">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Trivia</h5>
-                            <p class="card-text">Trivia game engine using a trivia API!</p>
-                            <br>
-                            <span class="portfolioBtn">
-                                <a href="https://cldecato.github.io/TriviaGame/" target="_blank" class="btn btn-secondary">PAGE</a>
-                                <a href="https://github.com/cldecato/TriviaGame" target="_blank" class="btn btn-secondary">SOURCE</a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-                    <div class="card">
-                        <img class="card-img-top img-responsive" src="assets/images/music.jpg" alt="Music Trivia">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Music Trivia</h5>
-                            <p class="card-text">Song Trivia based on an artist you select!</p>
-                            <br>
-                            <span class="portfolioBtn">
-                                <a href="https://drunnals313.github.io/MusicalGuessingGame" target="_blank" class="btn btn-secondary">PAGE</a>
-                                <a href="https://github.com/drunnals313/MusicalGuessingGame" target="_blank" class="btn btn-secondary">SOURCE</a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-                    <div class="card">
-                        <img class="card-img-top img-responsive" src="assets/images/panicinthedark.png" alt="Panic In The Dark">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Panic In The Dark</h5>
-                            <p class="card-text">A fun multiplayer game with a zombie and a human team!</p>
-                            <br>
-                            <span class="portfolioBtn">
-                                <a href="https://panicinthedark.herokuapp.com/" target="_blank" class="btn btn-secondary">PAGE</a>
-                                <a href="https://github.com/PaulLNH/PanicInTheDark" target="_blank" class="btn btn-secondary">SOURCE</a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
-                    <div class="card">
-                        <img class="card-img-top img-responsive" src="assets/images/burger.jpg" alt="Burger">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Burger App</h5>
-                            <p class="card-text">Use of MySQL, Node, Express, Handlebars, and an ORM</p>
-                            <br>
-                            <span class="portfolioBtn">
-                                <a href="https://cldecato.github.io/burger" target="_blank" class="btn btn-secondary">PAGE</a>
-                                <a href="https://github.com/cldecato/burger" target="_blank" class="btn btn-secondary">SOURCE</a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <!-- End portfolio -->
+        <div class="row offsetRow"></div>
     </div>
-    <!-- End HTML Page Body -->
-    </div>
-    <!--Footer-->
-    <div id="footer">
-
-        <footer class="page-footer font-small stylish-color-dark pt-4">
-            <div class="text-center text-md-left">
-
-                <!-- Footer links -->
-                <div class="row text-center text-md-left mt-3 pb-3 mx-auto">
-                    <div class="col-md-4 col-lg-4 col-xl-4 mt-3" id="contactList">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-                        <p>
-                            <i class="fa fa-home pr-3"></i>Portsmouth, NH
-                        </p>
-                        <p>
-                            <i class="fa fa-envelope pr-3"></i>Corey.Decato@Richmond.edu
-                        </p>
-                        <p>
-                            <i class="fa fa-phone pr-3"></i>(207) 641-7496
-                        </p>
-                    </div>
-
-                    <hr class="w-20 clearfix d-md-none">
-
-                    <div class="col-md-4 col-lg-4 col-xl-4 mt-3">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">Links</h6>
-                        <p>
-                            <a href="https://github.com/cldecato" target="_blank">
-                                <span>
-                                    <i class="fab fa-github fa-2x"></i> Check out my work on GitHub
-                                </span>
-                            </a>&nbsp;
-                        </p>
-                        <p>
-                            <a href="https://www.linkedin.com/in/corey-decato/" target="_blank">
-                                <span>
-                                    <i class="fab fa-linkedin fa-2x"></i> Connect with me on LinkedIn
-                                </span>
-                            </a>&nbsp;
-                        </p>
-                    </div>
-
-                    <hr class="w-20 clearfix d-md-none">
-
-                    <div class="col-md-4 col-lg-4 col-xl-4 mt-3">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">Tech Used</h6>
-                        <div class="row" id="icons">
-                            <div class="tech">
-                                <i class="fab fa-html5 fa-4x"></i>
-                                <h5>HTML5</h5>
-                            </div>
-                            <div class="tech">
-                                <i class="fab fa-css3-alt fa-4x"></i>
-                                <h5>CSS3</h5>
-                            </div>
-                            <div class="tech">
-                                <i class="fab fa-js-square fa-4x"></i>
-                                <h5>JavaScript</h5>
-                            </div>
-                            <div class="tech">
-                                <i class="fab fa-node-js fa-4x"></i>
-                                <h5>Node.js</h5>
-                            </div>
-                            <div class="tech">
-                                <i class="fab fa-react fa-4x"></i>
-                                <h5>React</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-    </div>
-    <!--/.Footer-->
 </body>
 
 </html>
