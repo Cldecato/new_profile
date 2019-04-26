@@ -157,12 +157,4 @@ $(document).ready(function() {
         }
         counter++;
     }
-    
-    // for ( i = 0; i < questions.length; i++) {
-    //     $('#gameScreen').empty();
-    //     $('#gameScreen').html(`<center><p>${questions[i].question}</p>`);
-    //     for ( j = 0; j < questions[i].answers.length; j++) {
-    //         $('#gameScreen').append(`<button>${questions[i].answers[j]}`);
-    //     }
-    // }
 })
