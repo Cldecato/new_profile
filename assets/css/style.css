@@ -92,6 +92,10 @@ a {
     margin: 10px;
 }
 
+.blueLink {
+    color: blue;
+}
+
 @media (min-width:245px) {
     .top {
         margin-top: 85px
